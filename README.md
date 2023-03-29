@@ -35,12 +35,15 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 
 *********************************************************************************
-Task 1:  Run main.py with exp = Exp01() uncommented in the main function\n
+Task 1:  Run main.py with exp = Exp01() uncommented in the main function
+
 This is a deep feed-forward neural network (regression) in PyTorch. This model will treat the identification as a regression problem.
 The neural network has two linear feed-forward layers of size 128 and 64 nodes, and uses ReLU activation functions. The network trains for 25 epochs.
 I used Adam Optimization for my optimizer and Mean Squared Error for my loss function.
 
-Task 2:  Run main.py with exp = Exp02() uncommented in the main function\n
+*********************************************************************************
+Task 2:  Run main.py with exp = Exp02() uncommented in the main function
+
 This is a deep feed-forward neural network (classification) in PyTorch. This model will treat the identification as a classification problem.
 The network uses softmax values and 1-hot encoding. The neural network has two linear feed-forward layers of size 128 and 64 nodes, and uses ReLU activation functions. The network trains for 25 epochs.
 I used Adam Optimization for my optimizer and Categorical Cross Entropy for my loss function.
