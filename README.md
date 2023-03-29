@@ -21,16 +21,18 @@ efficacy.
 *********************************************************************************
 Task 0, Set up:
 
-Install the required libraries for this project by running the following commands:
+1. Install the required libraries for this project by running the following commands:
 pip install scikit-learn (Or, for Anaconda conda install scikit-learn)
 pip install scipy (Or, for Anaconda conda install scipy)
 pip install numpy (Or, for Anaconda conda install numpy)
 pip install matplotlib (Or, for Anaconda conda install matplotlib)
 
-Install Pytorch. We think the following commands will do:
+2. Install Pytorch. We think the following commands will do:
 pip install torch torchvision torchaudio
 OR
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
+
+3. Unzip the mnist_test_train.zip into your directory
 
 
 *********************************************************************************
