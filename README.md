@@ -22,9 +22,13 @@ efficacy.
 Task 0, Set up:
 
 1. Install the required libraries for this project by running the following commands:
+
 pip install scikit-learn (Or, for Anaconda conda install scikit-learn)
+
 pip install scipy (Or, for Anaconda conda install scipy)
+
 pip install numpy (Or, for Anaconda conda install numpy)
+
 pip install matplotlib (Or, for Anaconda conda install matplotlib)
 
 2. Install Pytorch. We think the following commands will do:
