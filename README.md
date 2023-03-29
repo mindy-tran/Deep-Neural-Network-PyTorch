@@ -32,7 +32,7 @@ pip install torch torchvision torchaudio
 OR
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
-3. Unzip the mnist_test_train.zip into your directory
+3. Unzip the mnist_test_train.zip into your directory to get the mnist_test.csv and mnist_train.csv files.
 
 
 *********************************************************************************
