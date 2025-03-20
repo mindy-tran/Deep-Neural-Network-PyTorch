@@ -1,20 +1,15 @@
 # Deep-Neural-Network-PyTorch
 Machine Learning project: Implement two deep feed-forward neural networks in PyTorch, treating the identification as a regression problem and a classification problem.
 
-Mindy Tran
-Project for Machine Learning for Data Science, Winter 2023
+Mindy Hoang Tran, Completed March 2023
 
-In this project you will implement and compare multiple variations of a neural network using a widely
+Implemented and compared multiple variations of a neural network using a widely
 used library.
-1. You will construct a deep feed-forward neural network in PyTorch which identifies images in the
-MNIST dataset following an explicit blueprint provided in the instructions. This model will treat
-the identification as a regression problem, to make it most comparable to the linear regression
-you did in the previous project.
-2. You will construct a deep feed-forward neural network in PyTorch which identifies images in
-the MNIST dataset following an explicit blueprint provided in the instructions. This network will
-be a slight modification of the network created in 2(a), instead treating the identification as a
-classification problem.
-3. You will compare all of the implemented models and provide summary statistics about their
+1. Constructed a deep feed-forward neural network in PyTorch which identifies images in the
+MNIST dataset. This model will treat the identification as a regression problem.
+2. Constructed a deep feed-forward neural network in PyTorch which identifies images in the
+MNIST dataset. This model will treat the identification as a classification problem.
+3. Compare all of the implemented models and provide summary statistics about their
 efficacy.
 
 
@@ -31,7 +26,7 @@ pip install numpy (Or, for Anaconda conda install numpy)
 
 pip install matplotlib (Or, for Anaconda conda install matplotlib)
 
-2. Install Pytorch. We think the following commands will do:
+2. Install Pytorch. The following commands will do:
 pip install torch torchvision torchaudio
 OR
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
