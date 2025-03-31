@@ -9,13 +9,13 @@ from sklearn import metrics
 class NeuralNet:
     def __init__(self, input_size, output_size):
         """
-        The constructor. This is where you should initialize the architecture and structural
+        The constructor. Initialize the architecture and structural
         components of the training algorithm (e.g., which loss function and optimization strategy
         to use)
         :param input_size: The number of inputs to the neural network.
         :param output_size: The number of outputs of the neural network.
         """
-        # Complete me!
+        
         self.architecture = self._initialize_architecture(input_size=input_size, output_size=output_size)
         self.loss_function = nn.CrossEntropyLoss()
         self.optimizer = torch.optim.Adam(self.architecture.parameters())
@@ -28,7 +28,7 @@ class NeuralNet:
         :param output_size: The number of outputs of the neural network.
         :return: The overarching architecture of the network.
         """
-        # Complete me!
+        
         architecture = nn.Sequential(
             nn.Linear(in_features=input_size, out_features=128),
             nn.ReLU(),  # Apply ReLU activation to previous layer.
@@ -53,7 +53,7 @@ class NeuralNet:
         :param y: The scalar value(s).
         :return: The 1 hot encoded vector(s).
         """
-        # Complete me!
+        
         result = np.zeros(10)
         result[y] = 1
 
@@ -70,7 +70,7 @@ class NeuralNet:
         :param verbose: Print a lot of info to the console about training.
         :return: None. Internally the weights of the network are updated.
         """
-        # Complete me!
+        
         # Set a default that the batch size is sqrt(# of training instances)
         if batch_size is None:
             batch_size = int(np.sqrt(len(x)))
@@ -118,7 +118,7 @@ class NeuralNet:
         :param x: The features to use for a prediction.
         :return: The predicted outcome based on the features.
         """
-        # Complete me!
+        
         # Convert from Numpy to PyTorch tensor.
         x = torch.from_numpy(x).float()
         # Let the model know we're in "evaluate" mode (as opposed to training)
@@ -144,7 +144,7 @@ class Exp02:
         """
         x_train, y_train, x_test, y_test = None, None, None, None
 
-        # Fix & Complete me
+        
         # opening the CSV file
         train = np.loadtxt(file_path_prefix + "mnist_train.csv", delimiter=',')
         test = np.loadtxt(file_path_prefix + "mnist_test.csv", delimiter=',')
@@ -170,9 +170,7 @@ class Exp02:
         print("Training Model...")
 
         #######################################################################
-        # Complete this 2-step block of code using the variable name 'model' for
-        # the linear regression model.
-        # You can complete this by turning the given psuedocode to real code
+        # Initialize, Train, Evaluate.
         #######################################################################
 
         # (1) Initialize model;
