@@ -8,7 +8,7 @@ class NeuralNet:
 
     def __init__(self, input_size, output_size):
         """
-        The constructor. This is where you should initialize the architecture and structural
+        The constructor. Initializes the architecture and structural
         components of the training algorithm (e.g., which loss function and optimization strategy
         to use)
         :param input_size: The number of inputs to the neural network.
